@@ -9,6 +9,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   pageHeader: string = 'Employee Details';
 
+  isDisabled: boolean = false;
+
   firstName: string = "Tom";
   lastName: string = "Hank";
 
